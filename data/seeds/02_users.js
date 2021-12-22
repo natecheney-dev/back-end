@@ -3,20 +3,20 @@ exports.seed = async function(knex) {
     {
       first_name: 'Nathan',
       last_name: 'Cheney',
-      email: 'email@email.com',
-      password: '1234'
+      email: '1@email.com',
+      password: 'password'
     },
     {
       first_name: 'Joe',
       last_name: 'Phillips',
-      email: 'email@email.com',
-      password: '1234'
+      email: '2@email.com',
+      password: 'password'
     },
     {
       first_name: 'Ethan',
       last_name: 'Roberts',
-      email: 'email@email.com',
-      password: '1234'
+      email: '3@email.com',
+      password: 'password'
     }
   ])
 }
