@@ -10,10 +10,10 @@
     "migrate": "knex migrate:latest",
     "rollback": "knex migrate:rollback",
     "seed": "knex seed:run",
-    "migrateh": "heroku run knex migrate:latest -a potluckbw",
-    "rollbackh": "heroku run knex migrate:rollback -a potluckbw",
-    "databaseh": "heroku pg:psql -a potluckbw",
-    "seedh": "heroku run knex seed:run -a potluckbw",
+    "migrateh": "heroku run knex migrate:latest -a backendbw",
+    "rollbackh": "heroku run knex migrate:rollback -a backendbw",
+    "databaseh": "heroku pg:psql -a backendbw",
+    "seedh": "heroku run knex seed:run -a backendbw",
     "deploymain": "git push heroku main",
     "deploy": "git push heroku nathan-cheney"
 
