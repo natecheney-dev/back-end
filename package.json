@@ -14,7 +14,9 @@
     "rollbackh": "heroku run knex migrate:rollback -a potluckbw",
     "databaseh": "heroku pg:psql -a potluckbw",
     "seedh": "heroku run knex seed:run -a potluckbw",
-    "deploy": "git push heroku main"
+    "deploymain": "git push heroku main",
+    "deploy": "git push heroku nathan-cheney"
+
   },
   "repository": {
     "type": "git",

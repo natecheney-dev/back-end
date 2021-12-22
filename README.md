@@ -2,7 +2,7 @@
 
 ## Login/Registration Enpoints
 
-[POST] - https/
+[POST] - https://potluckbw.herokuapp.com/
 
 
 
